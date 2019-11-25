@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Wrapujemo sirinu i visinu
+ima  3 reda i 4 kolone
+ Svako LinearLayout ima imageView
+ Svakom LL dodamo razlicit ID
+ Svakom IV dodamo razlicit ID i source sa slikama
+ Slike samo dodamo u drawable
+ Kod mene se ID IV-a poklapa sa imenom slike
+ -->
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:id="@+id/grid_layout"
+
+
+    android:stretchMode="columnWidth" >
+
+    <LinearLayout
+        android:id="@+id/poz_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android21" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/poz_21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android32" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/poz_31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/poz_41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android22" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/poz_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android31" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/poz_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android01" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/poz_32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android12" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/poz_42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android20" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/poz_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android00" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/poz_23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android30" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/poz_33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android02" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/poz_43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/android11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android11" />
+    </LinearLayout>
+
+</GridLayout>
